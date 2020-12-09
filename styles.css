@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif, 'Arial';
     background-color: #DFD9E2;
 }
 
-button {
-    background-color: hsl(283,20%,64%);
-    color: white;
+#introduction {
     font-weight: bold;
 }
 
@@ -15,6 +13,10 @@ p, ul {
     color: #535865;
     font-size: 13px;
     font-weight: normal;
+}
+
+ul {
+    list-style-type: square;
 }
 
 h1 {
@@ -40,10 +42,8 @@ h3 {
     font-size: 15px;
 }
 
-#introduction {
+button {
+    background-color: hsl(283, 20%, 64%);
+    color: white;
     font-weight: bold;
-}
-
-ul{
-    list-style-type: square;
 }
